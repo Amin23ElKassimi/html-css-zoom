@@ -1,0 +1,48 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+#container {
+    overflow: auto;
+    width: 90vw;
+    height: 90vh;
+    position: absolute;
+    top: 50px;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-wrap:wrap ;
+}
+
+
+
+.window{
+    width: 200px;
+    height: 140px;
+    margin: 2px;
+}
+
+.img-window{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bottom-navbar{
+    height: 10vh;
+    background-color: aliceblue;
+}
