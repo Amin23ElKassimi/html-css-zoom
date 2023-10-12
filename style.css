@@ -1,0 +1,52 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    height: 90vh;
+    display: flex;
+    justify-content:center ;
+    align-content: center;
+
+}
+
+.container{
+
+    max-width: 1064px;
+    min-width: 1064px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+}
+
+.box{
+    width: 150;
+   max-width: 150;
+   min-width: 150px;
+   height: 90px;
+   min-height: 90px;
+   max-height: 90px;
+
+   background-color: black; 
+   margin: 1px;
+}
+
+.img-box{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+footer{
+    height: 10vh;
+    background-color: #d82323;
+}
+
