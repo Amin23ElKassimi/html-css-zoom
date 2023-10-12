@@ -18,9 +18,10 @@ main{
 
 #container {
     overflow: auto;
-    width: 90vw;
-    height: 80%;
+    width: 1428px;
+    height: 730px;
     position: absolute;
+    top: 50px;
     margin: 0 auto;
     background-color: black;
     display: flex;
@@ -43,7 +44,7 @@ main{
 }
 
 .bottom-navbar{
-    height: 10vh;
+    height: 30vh;
     background-color: aliceblue;
 }
 
