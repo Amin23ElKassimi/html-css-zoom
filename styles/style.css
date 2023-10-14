@@ -4,22 +4,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: .8rem;
+  }
+
+/* --------------------- header --------------------- */
+header{
+    height: 10vh; 
+
+    background-color: black;
+}
+
+#taskbar {
+    text-align: right;
+    background-color: black;
+}
+
+#taskbar span{
+    display: inline-block;
+    margin-top: .25rem;
+    margin-right: .25rem;
+    border-radius: .25rem;
+    background-color: #494c4c;
+    padding: .25rem .5rem;
+}
 
 
+/* --------------------- Main --------------------- */
 main{
-    height: 90vh;
+    height: 80vh;
     display: flex;
     justify-content:center ;
     align-content: center;
     background-color: black;
-
 }
-
+/*  Album Container */
 .container{
-
-    max-width: 1064px;
-    min-width: 1064px;
-    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -27,13 +49,9 @@ main{
 }
 
 .box{
-    width: 150;
-   max-width: 150;
-   min-width: 150px;
-   height: 90px;
-   min-height: 90px;
-   max-height: 90px;
-
+   width: 200px;
+   height: 100px;
+   position: relative;
    background-color: black; 
    margin: 1px;
 }
@@ -45,9 +63,48 @@ main{
     object-position: center;
 }
 
-
-footer{
-    height: 10vh;
-    background-color: #d82323;
+.user{
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
+
+
+/* --------------------- Footer --------------------- */
+footer{
+    height: 10vh;
+    background-color: #222222;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer > section {
+    height: 100%;
+    display: flex;
+}
+
+footer > section div.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .66rem;
+}
+
+
+
+
+
+/* BackGround Colors */
+
+.bg-grey{
+    background-color: rgba(36, 32, 32, 0.637);
+}
+
+/* Fonts Color */
+.txt-whitw{
+    color: white;
+}
